@@ -1789,4 +1789,14 @@ header div:has(a[href*="tel"]),
 	pointer-events: none !important;
 }
 
+/* Hide header right actions container div on mobile screens */
+@media (max-width: 992px) {
+	header div.alignwide > div:last-child,
+	header .wp-block-group.alignwide > div:last-child,
+	header .wp-block-group.alignwide > div.wp-block-group:nth-child(3),
+	.wp-block-template-part header div.alignwide > div:last-child {
+		display: none !important;
+	}
+}
+
 

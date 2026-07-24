@@ -21,3 +21,12 @@ header div:has(a[href*="tel"]),
 	padding: 0 !important;
 	pointer-events: none !important;
 }
+
+@media (max-width: 992px) {
+	header div.alignwide > div:last-child,
+	header .wp-block-group.alignwide > div:last-child,
+	header .wp-block-group.alignwide > div.wp-block-group:nth-child(3),
+	.wp-block-template-part header div.alignwide > div:last-child {
+		display: none !important;
+	}
+}
