@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.1] - 2026-07-24
+
+### Fixed
+- **Living Memories Spotlight Background Overlay (`style.css`, `inc/patterns/living-memories-spotlight.php`)**:
+  - Moved background gradient and line texture directly to full-width container (`.vhs-spotlight-section`), resolving vertical line seam/break at 1350px container boundary on wide screens.
+
 ## [1.2.0] - 2026-07-24
 
 ### Added

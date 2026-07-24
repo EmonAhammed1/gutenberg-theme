@@ -549,18 +549,9 @@ body .wp-site-blocks > :last-child {
 .vhs-spotlight-section {
 	position: relative !important;
 	background-color: #16324F !important;
-	overflow: hidden !important;
-}
-
-.vhs-spotlight-overlay {
-	position: absolute !important;
-	top: 0 !important;
-	left: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	pointer-events: none !important;
 	background-image: radial-gradient(110% 100% at 20% 0%, rgba(57, 183, 236, 0.08), rgba(57, 183, 236, 0) 55%),
 		repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0px, rgba(255, 255, 255, 0.028) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 3px) !important;
+	overflow: hidden !important;
 }
 
 .vhs-spotlight-tagline {

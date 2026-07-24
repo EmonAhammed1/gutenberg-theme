@@ -11,10 +11,6 @@ return array(
 	'content'    => '
 <!-- wp:group {"align":"full","className":"vhs-spotlight-section","style":{"spacing":{"padding":{"top":"88px","bottom":"88px","left":"24px","right":"24px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-spotlight-section" style="padding-top:88px;padding-right:24px;padding-bottom:88px;padding-left:24px">
-	<!-- wp:html -->
-	<div class="vhs-spotlight-overlay"></div>
-	<!-- /wp:html -->
-
 	<!-- wp:columns {"align":"wide","verticalAlignment":"center","style":{"spacing":{"blockGap":"60px"}}} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-center">
 		<!-- wp:column {"width":"50%","verticalAlignment":"center"} -->
