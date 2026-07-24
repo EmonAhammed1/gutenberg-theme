@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.1] - 2026-07-24
+
+### Fixed
+- **How It Works Cards Grid Height (`style.css`)**:
+  - Added `align-items: stretch !important`, `height: 100% !important`, and `flex: 1 1 auto !important` to `.vhs-how-grid` and `.vhs-how-card` so that all 4 cards automatically match 100% equal height regardless of text length.
+
 ## [1.3.0] - 2026-07-24
 
 ### Added
