@@ -1121,20 +1121,25 @@ body .wp-site-blocks > :last-child {
 .vhs-cta-band-section {
 	position: relative !important;
 	background-color: #16324F !important;
+	background-image: radial-gradient(100% 120% at 50% 0%, rgba(57, 183, 236, 0.09), rgba(57, 183, 236, 0) 60%), repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0px, rgba(255, 255, 255, 0.028) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 3px) !important;
 	overflow: hidden !important;
+	width: 100% !important;
 }
 
 .vhs-cta-band-overlay {
-	position: absolute !important;
-	inset: 0 !important;
-	pointer-events: none !important;
-	background-image: radial-gradient(100% 120% at 50% 0%, rgba(57, 183, 236, 0.09), rgba(57, 183, 236, 0) 60%), repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0px, rgba(255, 255, 255, 0.028) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 3px) !important;
+	display: none !important;
 }
 
 .vhs-cta-band-content {
 	position: relative !important;
 	text-align: center !important;
 	padding: 88px 24px !important;
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .vhs-cta-band-title {
@@ -1143,6 +1148,8 @@ body .wp-site-blocks > :last-child {
 	font-weight: 800 !important;
 	color: #FFFFFF !important;
 	letter-spacing: -0.01em !important;
+	text-align: center !important;
+	width: 100% !important;
 }
 
 .vhs-cta-band-desc {
@@ -1152,6 +1159,9 @@ body .wp-site-blocks > :last-child {
 	color: rgba(255, 255, 255, 0.78) !important;
 	font-weight: 500 !important;
 	max-width: 520px !important;
+	text-align: center !important;
+	text-align-last: center !important;
+	width: 100% !important;
 }
 
 .vhs-cta-btn-group {
@@ -1160,6 +1170,9 @@ body .wp-site-blocks > :last-child {
 	align-items: center !important;
 	gap: 16px !important;
 	flex-wrap: wrap !important;
+	width: 100% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .vhs-cta-btn-primary {

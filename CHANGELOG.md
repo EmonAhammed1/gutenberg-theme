@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1] - 2026-07-24
+
+### Fixed
+- **CTA Band Background Texture & Header Centering (`style.css`, `inc/patterns/final-cta.php`, `patterns/09-final-cta.php`)**:
+  - Moved radial scanline background texture directly onto full-width container `.vhs-cta-band-section` (`width: 100%`), eliminating background color seam/overlap boundary on wide screens.
+  - Enforced strict center alignment (`text-align: center !important`, `text-align-last: center !important`, `align-items: center !important`) for header title, description, and action button group.
+
 ## [1.7.0] - 2026-07-24
 
 ### Added

@@ -11,18 +11,14 @@ return array(
 	'content'    => '
 <!-- wp:group {"align":"full","className":"vhs-cta-band-section","layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-cta-band-section">
-	<!-- wp:html -->
-	<div class="vhs-cta-band-overlay"></div>
-	<!-- /wp:html -->
-
 	<!-- wp:group {"className":"vhs-cta-band-content","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group vhs-cta-band-content">
-		<!-- wp:heading {"level":2,"className":"vhs-cta-band-title"} -->
-		<h2 class="wp-block-heading vhs-cta-band-title">Don’t Let Your Memories <span style="color:#39B7EC">Fade</span>.</h2>
+		<!-- wp:heading {"level":2,"align":"center","className":"vhs-cta-band-title"} -->
+		<h2 class="wp-block-heading has-text-align-center vhs-cta-band-title">Don’t Let Your Memories <span style="color:#39B7EC">Fade</span>.</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"vhs-cta-band-desc"} -->
-		<p class="vhs-cta-band-desc">Tapes, film, and photos degrade a little more every year. Digitizing them takes one free quote.</p>
+		<!-- wp:paragraph {"align":"center","className":"vhs-cta-band-desc"} -->
+		<p class="has-text-align-center vhs-cta-band-desc">Tapes, film, and photos degrade a little more every year. Digitizing them takes one free quote.</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:html -->
