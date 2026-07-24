@@ -30,6 +30,7 @@ if ( ! function_exists( 'realome_register_block_patterns' ) ) :
 			'trust-ribbon',
 			'format-banner',
 			'formats-grid',
+			'living-memories-spotlight',
 			'how-it-works',
 			'flat-pricing',
 			'why-trust-us',

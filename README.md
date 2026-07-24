@@ -66,6 +66,11 @@ Note: Images are not included in Main Download File.
    - **Component**: Client Homepage Hero Section (`vhs-sections`, `hero`, `featured`).
    - **Structure**: 2-column hero layout with `#16324F` dark navy background, H1 heading, call-to-action buttons, right-side media preview box, and 5 format pills bottom bar.
 
-3. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-hero-format-pills`, and responsive `@media` query breakpoints (`992px` and `782px`).
+3. **Living Memories Spotlight Pattern (`inc/patterns/living-memories-spotlight.php` & `patterns/04-living-memories-spotlight.php`)**
+   - **Component**: Living Memories Spotlight Section (`vhs-sections`, `featured`).
+   - **Headline**: "Turn Your Memories Into a Documentary of Your Life."
+   - **Structure**: 2-column dark navy layout (`#16324F`) featuring eyebrow tagline (`ONLY FROM MEMORY CONVERTER`), H2 heading with highlighted word, description paragraph, outline button (`Explore Living Memories`) alongside price tag (`From $1,800`), and right-side striped media container box (`.vhs-spotlight-media-box`).
+
+4. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-spotlight-media-box`, `.vhs-hero-format-pills`, and responsive `@media` query breakpoints (`992px` and `782px`).
 

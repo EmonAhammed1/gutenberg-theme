@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0] - 2026-07-24
+
+### Added
+- **Living Memories Spotlight Pattern (`inc/patterns/living-memories-spotlight.php`, `patterns/04-living-memories-spotlight.php`)**:
+  - Added new 2-column spotlight block pattern ("Turn Your Memories Into a Documentary of Your Life").
+  - Added CSS styling rules for `.vhs-spotlight-section`, `.vhs-spotlight-overlay`, `.vhs-spotlight-title`, `.vhs-spotlight-btn-wrap`, and `.vhs-spotlight-media-box` in `style.css`.
+  - Registered `'living-memories-spotlight'` in `inc/block-patterns.php`.
+
 ## [1.1.0] - 2026-07-24
 
 ### Changed

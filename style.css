@@ -535,4 +535,107 @@ body .wp-site-blocks > :last-child {
 		white-space: normal !important;
 		text-align: left !important;
 	}
+
+	.vhs-spotlight-title {
+		font-size: 28px !important;
+	}
+
+	.vhs-spotlight-media-box {
+		height: 240px !important;
+	}
+}
+
+/* Living Memories Spotlight Section */
+.vhs-spotlight-section {
+	position: relative !important;
+	background-color: #16324F !important;
+	overflow: hidden !important;
+}
+
+.vhs-spotlight-overlay {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	pointer-events: none !important;
+	background-image: radial-gradient(110% 100% at 20% 0%, rgba(57, 183, 236, 0.08), rgba(57, 183, 236, 0) 55%),
+		repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0px, rgba(255, 255, 255, 0.028) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 3px) !important;
+}
+
+.vhs-spotlight-tagline {
+	font-size: 13px !important;
+	font-weight: 800 !important;
+	letter-spacing: 0.16em !important;
+	color: #39B7EC !important;
+	margin-top: 0 !important;
+	margin-bottom: 18px !important;
+	text-transform: uppercase !important;
+}
+
+.vhs-spotlight-title {
+	font-size: 40px !important;
+	line-height: 1.12 !important;
+	font-weight: 800 !important;
+	color: #FFFFFF !important;
+	letter-spacing: -0.01em !important;
+	margin-top: 0 !important;
+	margin-bottom: 18px !important;
+}
+
+.vhs-spotlight-desc {
+	font-size: 16.5px !important;
+	line-height: 1.65 !important;
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-weight: 500 !important;
+	max-width: 520px !important;
+	margin-top: 0 !important;
+	margin-bottom: 28px !important;
+}
+
+.vhs-spotlight-btn-wrap {
+	display: flex !important;
+	align-items: center !important;
+	gap: 18px !important;
+	flex-wrap: wrap !important;
+}
+
+.vhs-spotlight-btn {
+	display: inline-block !important;
+	border: 1.5px solid #39B7EC !important;
+	color: #39B7EC !important;
+	font-weight: 700 !important;
+	font-size: 16px !important;
+	padding: 14px 28px !important;
+	border-radius: 12px !important;
+	text-decoration: none !important;
+	transition: background-color 0.18s ease, color 0.18s ease !important;
+}
+
+.vhs-spotlight-btn:hover {
+	background-color: rgba(57, 183, 236, 0.12) !important;
+	color: #39B7EC !important;
+}
+
+.vhs-spotlight-price {
+	font-size: 14px !important;
+	font-weight: 800 !important;
+	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.vhs-spotlight-media-box {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	height: 360px !important;
+	border-radius: 16px !important;
+	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35) !important;
+	background: repeating-linear-gradient(45deg, rgba(57, 183, 236, 0.08) 0px, rgba(57, 183, 236, 0.08) 10px, rgba(57, 183, 236, 0) 10px, rgba(57, 183, 236, 0) 20px), #1E3A5C !important;
+}
+
+.vhs-spotlight-media-text {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+	font-size: 12.5px !important;
+	letter-spacing: 0.06em !important;
+	color: rgba(255, 255, 255, 0.6) !important;
 }
