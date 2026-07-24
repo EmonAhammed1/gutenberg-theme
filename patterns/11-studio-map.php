@@ -2,7 +2,7 @@
 /**
  * Title: 11. Studio Map & Location
  * Slug: realome/studio-map
- * Categories: vhs-sections, featured
+ * Categories: featured, realome, vhs-sections
  * Keywords: map, location, google map, hollywood, studio
  * Viewport Width: 1280
  *

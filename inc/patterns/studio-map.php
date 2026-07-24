@@ -7,7 +7,7 @@
 
 return array(
 	'title'      => __( '11. Studio Map & Location', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
+	'categories' => array( 'vhs-sections', 'featured', 'realome' ),
 	'content'    => '
 <!-- wp:group {"align":"full","className":"vhs-map-section","layout":{"type":"full"}} -->
 <div class="wp-block-group alignfull vhs-map-section">
