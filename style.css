@@ -1228,3 +1228,194 @@ body .wp-site-blocks > :last-child {
 		font-size: 30px !important;
 	}
 }
+
+/* Footer Block Template Part Styling */
+.vhs-main-footer {
+	position: relative !important;
+	background-color: #16324F !important;
+	color: #FFFFFF !important;
+	width: 100vw !important;
+	max-width: 100vw !important;
+	margin-left: calc(50% - 50vw) !important;
+	margin-right: calc(50% - 50vw) !important;
+	box-sizing: border-box !important;
+	padding: 64px 24px 28px 24px !important;
+}
+
+.vhs-footer-grid {
+	margin-bottom: 44px !important;
+}
+
+.vhs-footer-brand {
+	font-weight: 800 !important;
+	font-size: 19px !important;
+	margin-top: 0 !important;
+	margin-bottom: 12px !important;
+	line-height: 1.2 !important;
+}
+
+.vhs-footer-tagline {
+	margin: 0 0 18px 0 !important;
+	font-size: 14px !important;
+	line-height: 1.65 !important;
+	color: rgba(255, 255, 255, 0.65) !important;
+	font-weight: 500 !important;
+	max-width: 300px !important;
+}
+
+.vhs-footer-rating {
+	display: flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	margin: 0 0 8px 0 !important;
+	font-size: 13px !important;
+	font-weight: 700 !important;
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.vhs-footer-rating span {
+	color: #39B7EC !important;
+	font-size: 13px !important;
+	letter-spacing: 2px !important;
+}
+
+.vhs-footer-col-title {
+	font-size: 12px !important;
+	font-weight: 800 !important;
+	letter-spacing: 0.14em !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+	margin-top: 0 !important;
+	margin-bottom: 15px !important;
+	text-transform: uppercase !important;
+}
+
+.vhs-footer-link {
+	margin: 0 0 11px 0 !important;
+}
+
+.vhs-footer-link a {
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	color: rgba(255, 255, 255, 0.78) !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+}
+
+.vhs-footer-link a:hover {
+	color: #39B7EC !important;
+}
+
+.vhs-footer-address {
+	font-size: 14px !important;
+	line-height: 1.7 !important;
+	color: rgba(255, 255, 255, 0.78) !important;
+	font-weight: 500 !important;
+	margin: 0 0 14px 0 !important;
+}
+
+.vhs-footer-phone {
+	margin: 0 0 16px 0 !important;
+}
+
+.vhs-footer-phone a {
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	font-size: 15px !important;
+	font-weight: 800 !important;
+	color: #39B7EC !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+}
+
+.vhs-footer-phone a:hover {
+	color: #FFFFFF !important;
+}
+
+.vhs-footer-socials {
+	display: flex !important;
+	gap: 14px !important;
+	margin-top: 4px !important;
+}
+
+.vhs-footer-socials a {
+	font-size: 13px !important;
+	font-weight: 700 !important;
+	color: rgba(255, 255, 255, 0.6) !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+}
+
+.vhs-footer-socials a:hover {
+	color: #39B7EC !important;
+}
+
+.vhs-footer-divider {
+	border: none !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+	margin: 0 0 24px 0 !important;
+	opacity: 1 !important;
+}
+
+.vhs-footer-bottom {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+	gap: 16px !important;
+	flex-wrap: wrap !important;
+	padding-top: 4px !important;
+}
+
+.vhs-footer-copy {
+	font-size: 13px !important;
+	font-weight: 600 !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+	margin: 0 !important;
+}
+
+.vhs-footer-bottom-links {
+	display: flex !important;
+	gap: 18px !important;
+}
+
+.vhs-footer-bottom-links a {
+	font-size: 13px !important;
+	font-weight: 600 !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+}
+
+.vhs-footer-bottom-links a:hover {
+	color: #39B7EC !important;
+}
+
+@media (max-width: 992px) {
+	.vhs-footer-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.vhs-footer-grid {
+		grid-template-columns: 1fr !important;
+	}
+	.vhs-footer-bottom {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+	}
+}
+
+/* Header Logo */
+.vhs-header-logo img {
+	width: 160px !important;
+	height: auto !important;
+	display: block !important;
+	object-fit: contain !important;
+}
+
+@media (max-width: 600px) {
+	.vhs-header-logo img {
+		width: 120px !important;
+	}
+}
