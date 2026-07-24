@@ -41,6 +41,7 @@ if ( ! function_exists( 'realome_register_block_patterns' ) ) :
 			'footer-default',
 			'header-default',
 			'hero-four',
+			'studio-location',
 		);
 
 		foreach ( $block_patterns as $block_pattern ) {
