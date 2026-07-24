@@ -30,3 +30,18 @@ header div:has(a[href*="tel"]),
 		display: none !important;
 	}
 }
+
+/* Hide header Get a Free Quote button + phone on mobile - UPDATED */
+@media (max-width: 992px) {
+	header .wp-block-group.is-nowrap,
+	header div.is-nowrap.wp-block-group,
+	header .wp-block-group.alignwide > .wp-block-group:has(.wp-block-button),
+	header .wp-block-group.alignwide > .wp-block-group:has(a[href*="tel"]),
+	header .wp-block-group.alignwide > .wp-block-group:last-of-type,
+	header .wp-block-group.alignwide > div:last-child:not(.is-responsive),
+	header .wp-block-group:has(> .wp-block-buttons),
+	header .wp-block-group:has(> a[href*="tel"]),
+	header .wp-block-group:has(> p > a[href*="tel"]) {
+		display: none !important;
+	}
+}
