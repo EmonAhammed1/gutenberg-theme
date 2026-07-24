@@ -1020,3 +1020,99 @@ body .wp-site-blocks > :last-child {
 		font-size: 28px !important;
 	}
 }
+
+/* FAQ Accordion Section */
+.vhs-faq-section {
+	background-color: #FFFFFF !important;
+}
+
+.vhs-faq-title {
+	margin: 0 0 14px 0 !important;
+	font-size: 40px !important;
+	line-height: 1.12 !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	letter-spacing: -0.01em !important;
+}
+
+.vhs-faq-desc {
+	margin: 0 0 24px 0 !important;
+	font-size: 16px !important;
+	line-height: 1.6 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	max-width: 480px !important;
+}
+
+.vhs-faq-phone {
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	font-weight: 800 !important;
+	font-size: 16px !important;
+	color: #436DA5 !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+}
+
+.vhs-faq-phone:hover {
+	color: #39B7EC !important;
+}
+
+.vhs-faq-wrap {
+	border-top: 1px solid #E3EBF4 !important;
+	width: 100% !important;
+}
+
+.vhs-faq-item {
+	border-bottom: 1px solid #E3EBF4 !important;
+	padding: 22px 4px !important;
+	box-sizing: border-box !important;
+}
+
+.vhs-faq-item details summary {
+	list-style: none !important;
+	cursor: pointer !important;
+}
+
+.vhs-faq-item details summary::-webkit-details-marker {
+	display: none !important;
+}
+
+.vhs-faq-head {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+	gap: 16px !important;
+	cursor: pointer !important;
+}
+
+.vhs-faq-question {
+	font-size: 17px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	margin: 0 !important;
+}
+
+.vhs-faq-toggle {
+	color: #39B7EC !important;
+	font-size: 22px !important;
+	font-weight: 600 !important;
+	line-height: 1 !important;
+	user-select: none !important;
+}
+
+.vhs-faq-answer {
+	margin: 12px 0 0 0 !important;
+	font-size: 15px !important;
+	line-height: 1.65 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	max-width: 560px !important;
+}
+
+@media (max-width: 782px) {
+	.vhs-faq-title {
+		font-size: 28px !important;
+	}
+}

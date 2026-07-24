@@ -1,14 +1,13 @@
 <?php
 /**
- * FAQ Accordion Pattern
- *
- * @package Realome
+ * Title: 09. FAQ Accordion Section
+ * Slug: realome/faq-accordion
+ * Categories: featured, vhs-sections
+ * Keywords: faq, questions, answered, accordion, formats, turnaround, safety, cost
  */
 
-return array(
-	'title'      => __( '09. FAQ Accordion', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
-	'content'    => '
+$theme_uri = get_template_directory_uri();
+?>
 <!-- wp:group {"align":"full","className":"vhs-faq-section","style":{"spacing":{"padding":{"top":"88px","bottom":"88px","left":"24px","right":"24px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-faq-section" style="padding-top:88px;padding-right:24px;padding-bottom:88px;padding-left:24px">
 	<!-- wp:columns {"align":"wide","verticalAlignment":"top","style":{"spacing":{"blockGap":"60px"}}} -->
@@ -103,5 +102,3 @@ return array(
 	<!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
-',
-);

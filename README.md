@@ -86,6 +86,11 @@ Note: Images are not included in Main Download File.
    - **Headline**: "A Wall of Stories." with 5.0 Google & Yelp rating badge (`.vhs-rating-badge`).
    - **Structure**: 3-column equal-height white review cards (`.vhs-review-card`) on `#F3F7FC` background. Each card features 5 cyan stars (`★★★★★`), customer quote paragraph, and author footer with circular avatar, name, and city location.
 
-7. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-stories-section`, `.vhs-review-card`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
+7. **FAQ Accordion Pattern (`inc/patterns/faq-accordion.php` & `patterns/08-faq-accordion.php`)**
+   - **Component**: Questions Answered FAQ Accordion Section (`vhs-sections`, `featured`).
+   - **Headline**: "Questions, Answered." with Hollywood studio phone link (`754-276-1601`).
+   - **Structure**: 2-column layout on `#FFFFFF` background. Right column contains 6 expandable FAQ items (`.vhs-faq-item`) with cyan toggle indicators (`+` / `−`) and border dividers (`#E3EBF4`).
+
+8. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-stories-section`, `.vhs-review-card`, `.vhs-faq-section`, `.vhs-faq-phone`, `.vhs-faq-wrap`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
 

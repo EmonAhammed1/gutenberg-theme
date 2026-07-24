@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0] - 2026-07-24
+
+### Added
+- **FAQ Accordion Section Pattern (`inc/patterns/faq-accordion.php`, `patterns/08-faq-accordion.php`)**:
+  - Updated "Questions, Answered." FAQ accordion block pattern with 2-column layout, studio call link (754-276-1601), and 6 expandable items ("What formats do you accept?", "How long does it take?", "Is my media safe with you?", "Do you outsource any work overseas?", "What files do I get back?", "What does it cost?").
+  - Added CSS rules for `.vhs-faq-section`, `.vhs-faq-phone`, `.vhs-faq-wrap`, `.vhs-faq-item`, `.vhs-faq-head`, and `.vhs-faq-toggle` in `style.css`.
+
 ## [1.5.0] - 2026-07-24
 
 ### Added
