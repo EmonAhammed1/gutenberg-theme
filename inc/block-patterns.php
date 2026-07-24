@@ -41,7 +41,6 @@ if ( ! function_exists( 'realome_register_block_patterns' ) ) :
 			'footer-default',
 			'header-default',
 			'hero-four',
-			'studio-location',
 			'studio-map',
 		);
 
