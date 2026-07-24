@@ -368,3 +368,31 @@ require get_parent_theme_file_path( '/inc/plugins.php' );
 
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
+
+/**
+ * Inject mobile hide CSS directly into <head> via wp_head.
+ * This runs AFTER all stylesheets are enqueued so it always wins.
+ */
+add_action( 'wp_head', function() {
+	?>
+	<style id="vhs-mobile-header-hide">
+	@media (max-width: 991px) {
+		/* Hide ALL buttons, phone links and their parent containers in header */
+		header .wp-block-button,
+		header .wp-block-buttons,
+		header .wp-block-button__link,
+		header a[href^="tel:"],
+		header a[href*="tel"],
+		header p a[href^="tel:"],
+		header .vhs-header-phone-wrap,
+		header .vhs-header-right-actions,
+		/* Target the nowrap group (button container) in DB-saved header */
+		header .wp-block-group.is-nowrap,
+		header .is-layout-flex.is-nowrap {
+			display: none !important;
+			visibility: hidden !important;
+		}
+	}
+	</style>
+	<?php
+}, 999 );
