@@ -23,7 +23,7 @@ return array(
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
 		<div class="wp-block-group" style="display:flex;align-items:center">
 			<!-- wp:image {"width":160,"sizeSlug":"full","linkDestination":"custom","className":"vhs-header-logo"} -->
-			<figure class="wp-block-image size-full is-resized vhs-header-logo"><a href="/"><img src="' . esc_url( $theme_uri ) . '/assets/images/logo-main.png" alt="Memory Converter" width="160" style="height:auto"/></a></figure>
+			<figure class="wp-block-image size-full is-resized vhs-header-logo"><a href="' . esc_url( home_url( '/' ) ) . '"><img src="' . esc_url( $theme_uri ) . '/assets/images/logo-main.png" alt="Memory Converter" width="160" style="height:auto"/></a></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:group -->
