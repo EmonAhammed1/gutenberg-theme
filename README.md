@@ -76,6 +76,11 @@ Note: Images are not included in Main Download File.
    - **Headline**: "How It Works." with subtitle "Simple orders can be done in 24 hours; the largest projects take about a week."
    - **Structure**: 4-column responsive white card grid (`.vhs-how-grid`) with `#F3F7FC` background. Each card features a circular cyan-bordered SVG icon, step number badge (`01`, `02`, `03`, `04`), title, and description.
 
-5. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-hero-format-pills`, and responsive `@media` query breakpoints (`992px` and `600px`).
+5. **Local Coverage & Mail-In Pattern (`inc/patterns/local-coverage.php` & `patterns/06-local-coverage.php`)**
+   - **Component**: Serving South Florida & Mail-In Section (`vhs-sections`, `featured`).
+   - **Headline**: "Serving South Florida — and Families Nationwide by Mail."
+   - **Structure**: 2-column layout on `#FFFFFF` background. Left side features headline, subtitle, and 8 city pill tags (`.vhs-city-pill`). Right side features "Not in South Florida?" mail-in card (`.vhs-mailin-card`) with cyan SVG icon and link.
+
+6. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-city-pill`, `.vhs-mailin-card`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
 

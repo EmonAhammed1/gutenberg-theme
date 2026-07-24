@@ -1,14 +1,13 @@
 <?php
 /**
- * Local Coverage Pattern
- *
- * @package Realome
+ * Title: 07. Local Coverage & Mail-In Section
+ * Slug: realome/local-coverage
+ * Categories: featured, vhs-sections
+ * Keywords: local coverage, south florida, hollywood, miami, mail-in, nationwide
  */
 
-return array(
-	'title'      => __( '07. Local Coverage & Studio Hours', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
-	'content'    => '
+$theme_uri = get_template_directory_uri();
+?>
 <!-- wp:group {"align":"full","className":"vhs-coverage-section","style":{"spacing":{"padding":{"top":"88px","bottom":"88px","left":"24px","right":"24px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-coverage-section" style="padding-top:88px;padding-right:24px;padding-bottom:88px;padding-left:24px">
 	<!-- wp:columns {"align":"wide","verticalAlignment":"center","style":{"spacing":{"blockGap":"60px"}}} -->
@@ -64,5 +63,3 @@ return array(
 	<!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
-',
-);

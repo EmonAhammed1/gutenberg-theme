@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0] - 2026-07-24
+
+### Added
+- **Local Coverage & Mail-In Pattern (`inc/patterns/local-coverage.php`, `patterns/06-local-coverage.php`)**:
+  - Updated "Serving South Florida" block pattern matching the 2-column layout with 8 city pills (Hollywood, Fort Lauderdale, Miami, Boca Raton, Pompano Beach, Coral Gables, Aventura, West Palm Beach).
+  - Added "Not in South Florida?" mail-in card on the right side.
+  - Added CSS rules for `.vhs-coverage-section`, `.vhs-city-pill`, `.vhs-mailin-card`, `.vhs-mailin-icon`, and `.vhs-mailin-link` in `style.css`.
+
 ## [1.3.2] - 2026-07-24
 
 ### Fixed

@@ -758,3 +758,112 @@ body .wp-site-blocks > :last-child {
 		font-size: 28px !important;
 	}
 }
+
+/* Local Coverage & Mail-In Section */
+.vhs-coverage-section {
+	background-color: #FFFFFF !important;
+}
+
+.vhs-coverage-title {
+	margin: 0 0 14px 0 !important;
+	font-size: 40px !important;
+	line-height: 1.12 !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	letter-spacing: -0.01em !important;
+}
+
+.vhs-coverage-desc {
+	margin: 0 0 28px 0 !important;
+	font-size: 16.5px !important;
+	line-height: 1.6 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	max-width: 520px !important;
+}
+
+.vhs-city-tags {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	gap: 10px !important;
+	max-width: 560px !important;
+}
+
+.vhs-city-pill {
+	display: inline-block !important;
+	border: 1px solid #D7E2EE !important;
+	background-color: #F3F7FC !important;
+	color: #34495E !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	padding: 10px 18px !important;
+	border-radius: 99px !important;
+	text-decoration: none !important;
+	transition: border-color 0.15s ease, color 0.15s ease !important;
+}
+
+.vhs-city-pill:hover {
+	border-color: #39B7EC !important;
+	color: #436DA5 !important;
+}
+
+.vhs-mailin-card {
+	background-color: #F3F7FC !important;
+	border: 1px solid #E3EBF4 !important;
+	border-radius: 16px !important;
+	padding: 32px !important;
+	box-sizing: border-box !important;
+}
+
+.vhs-mailin-top {
+	display: flex !important;
+	align-items: center !important;
+	gap: 12px !important;
+	margin-bottom: 14px !important;
+}
+
+.vhs-mailin-icon {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 44px !important;
+	height: 44px !important;
+	border-radius: 12px !important;
+	background-color: rgba(57, 183, 236, 0.14) !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-mailin-title {
+	font-size: 18px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	margin: 0 !important;
+}
+
+.vhs-mailin-desc {
+	font-size: 15px !important;
+	line-height: 1.65 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	margin-top: 0 !important;
+	margin-bottom: 18px !important;
+}
+
+.vhs-mailin-link a {
+	font-size: 14.5px !important;
+	font-weight: 800 !important;
+	color: #436DA5 !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+	display: inline-block !important;
+}
+
+.vhs-mailin-link a:hover {
+	color: #39B7EC !important;
+}
+
+@media (max-width: 782px) {
+	.vhs-coverage-title {
+		font-size: 28px !important;
+	}
+}
