@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.2] - 2026-07-24
+
+### Fixed
+- **Full-Bleed Viewport Background Stretch (`style.css`)**:
+  - Applied `width: 100vw !important`, `max-width: 100vw !important`, and `margin-left: calc(50% - 50vw) !important`, `margin-right: calc(50% - 50vw) !important` to `.alignfull` and `.vhs-cta-band-section`, completely removing white background margins/gaps on the right and left screen edges.
+
 ## [1.7.1] - 2026-07-24
 
 ### Fixed
