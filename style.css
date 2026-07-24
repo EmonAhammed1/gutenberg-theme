@@ -1768,3 +1768,11 @@ body .wp-site-blocks > :last-child {
 	}
 }
 
+/* Hide header phone and Quote button on mobile */
+@media (max-width: 768px) {
+	.vhs-header-right-actions {
+		display: none !important;
+	}
+}
+
+
