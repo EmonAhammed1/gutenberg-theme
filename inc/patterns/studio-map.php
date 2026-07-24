@@ -11,9 +11,8 @@ return array(
 	'content'    => '
 <!-- wp:group {"align":"full","className":"vhs-map-section","layout":{"type":"full"}} -->
 <div class="wp-block-group alignfull vhs-map-section">
-	<!-- wp:html -->
 	<div class="vhs-map-wrapper">
-		<iframe class="vhs-google-map-iframe" src="https://maps.google.com/maps?q=6630+Meade+Street,+Hollywood,+FL+33024&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<!-- wp:wp-map-block/wp-map-block {"map_id":"wpmapblock_80b37248","map_marker_list":[{"id":0,"lat":25.978504,"lng":-80.223884,"title":"Memory Converter","content":"6630 Meade Street, Hollywood, FL 33024","iconType":"default","customIconUrl":"","customIconWidth":25,"customIconHeight":40}],"map_zoom":15,"map_type":"GM","map_width":100,"map_height":380,"scroll_wheel_zoom":false,"center_index":0} /-->
 		
 		<div class="vhs-map-overlay-grid"></div>
 
@@ -25,7 +24,6 @@ return array(
 
 		<div class="vhs-map-caption">google map embed &mdash; hollywood / south florida</div>
 	</div>
-	<!-- /wp:html -->
 </div>
 <!-- /wp:group -->
 ',
