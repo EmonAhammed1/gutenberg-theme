@@ -396,3 +396,70 @@ add_action( 'wp_head', function() {
 	</style>
 	<?php
 }, 999 );
+
+/**
+ * Use JavaScript to hide the "Get a Free Quote" button and phone number
+ * in the header on mobile. JS-based so it works regardless of CSS class names
+ * in database-saved templates.
+ */
+add_action( 'wp_footer', function() {
+	?>
+	<script id="vhs-mobile-header-js">
+	(function() {
+		function hideMobileHeaderItems() {
+			if ( window.innerWidth > 991 ) return;
+
+			var header = document.querySelector('header');
+			if ( ! header ) return;
+
+			// 1. Hide any element containing "Get a Free Quote" text
+			var allEls = header.querySelectorAll('*');
+			allEls.forEach(function(el) {
+				var text = el.innerText || el.textContent || '';
+				if ( text.trim() === 'Get a Free Quote' || text.trim() === 'Free Quote' ) {
+					// Hide the button and its parent container
+					el.style.setProperty('display', 'none', 'important');
+					if ( el.parentElement ) {
+						el.parentElement.style.setProperty('display', 'none', 'important');
+					}
+					if ( el.parentElement && el.parentElement.parentElement ) {
+						el.parentElement.parentElement.style.setProperty('display', 'none', 'important');
+					}
+				}
+			});
+
+			// 2. Hide any tel: links
+			var telLinks = header.querySelectorAll('a[href^="tel:"], a[href*="tel"]');
+			telLinks.forEach(function(el) {
+				el.style.setProperty('display', 'none', 'important');
+				if ( el.parentElement ) {
+					el.parentElement.style.setProperty('display', 'none', 'important');
+				}
+				if ( el.parentElement && el.parentElement.parentElement ) {
+					el.parentElement.parentElement.style.setProperty('display', 'none', 'important');
+				}
+			});
+
+			// 3. Hide any .wp-block-buttons inside header
+			var btnBlocks = header.querySelectorAll('.wp-block-buttons, .wp-block-button');
+			btnBlocks.forEach(function(el) {
+				el.style.setProperty('display', 'none', 'important');
+				if ( el.parentElement ) {
+					el.parentElement.style.setProperty('display', 'none', 'important');
+				}
+			});
+		}
+
+		// Run on load
+		if ( document.readyState === 'loading' ) {
+			document.addEventListener('DOMContentLoaded', hideMobileHeaderItems);
+		} else {
+			hideMobileHeaderItems();
+		}
+
+		// Also run on resize
+		window.addEventListener('resize', hideMobileHeaderItems);
+	})();
+	</script>
+	<?php
+}, 999 );

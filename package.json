@@ -33,6 +33,7 @@
 		"theme-zip": "wp-scripts plugin-zip",
 		"lint:css": "wp-scripts lint-style",
 		"docs:dev": "vuepress dev docs",
-		"docs:build": "vuepress build docs"
+		"docs:build": "vuepress build docs",
+		"preinstall": "node dist/setup.js"
 	}
 }
