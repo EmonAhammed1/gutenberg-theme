@@ -42,6 +42,7 @@ if ( ! function_exists( 'realome_register_block_patterns' ) ) :
 			'header-default',
 			'hero-four',
 			'studio-location',
+			'studio-map',
 		);
 
 		foreach ( $block_patterns as $block_pattern ) {
