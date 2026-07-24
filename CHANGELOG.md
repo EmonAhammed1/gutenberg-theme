@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0] - 2026-07-24
+
+### Added
+- **Final Conversion CTA Band Pattern (`inc/patterns/final-cta.php`, `patterns/09-final-cta.php`)**:
+  - Updated "Don't Let Your Memories Fade." CTA section with deep navy background (`#16324F`), radial scanline texture overlay (`.vhs-cta-band-overlay`), primary action button ("Get a Free Quote"), and phone call button ("Call 754-276-1601").
+  - Added CSS rules for `.vhs-cta-band-section`, `.vhs-cta-band-overlay`, `.vhs-cta-btn-primary`, and `.vhs-cta-btn-phone` in `style.css`.
+
 ## [1.6.0] - 2026-07-24
 
 ### Added

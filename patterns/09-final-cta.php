@@ -1,14 +1,13 @@
 <?php
 /**
- * Final CTA Pattern
- *
- * @package Realome
+ * Title: 10. Final Conversion CTA Banner
+ * Slug: realome/final-cta
+ * Categories: featured, vhs-sections
+ * Keywords: cta, call to action, memories fade, free quote, phone, conversion
  */
 
-return array(
-	'title'      => __( '10. Final Conversion CTA Banner', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
-	'content'    => '
+$theme_uri = get_template_directory_uri();
+?>
 <!-- wp:group {"align":"full","className":"vhs-cta-band-section","layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-cta-band-section">
 	<!-- wp:html -->
@@ -38,5 +37,3 @@ return array(
 	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-',
-);

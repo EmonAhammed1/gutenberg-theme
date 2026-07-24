@@ -91,6 +91,11 @@ Note: Images are not included in Main Download File.
    - **Headline**: "Questions, Answered." with Hollywood studio phone link (`754-276-1601`).
    - **Structure**: 2-column layout on `#FFFFFF` background. Right column contains 6 expandable FAQ items (`.vhs-faq-item`) with cyan toggle indicators (`+` / `−`) and border dividers (`#E3EBF4`).
 
-8. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-stories-section`, `.vhs-review-card`, `.vhs-faq-section`, `.vhs-faq-phone`, `.vhs-faq-wrap`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
+8. **Final Conversion CTA Band Pattern (`inc/patterns/final-cta.php` & `patterns/09-final-cta.php`)**
+   - **Component**: Conversion Call-to-Action Band Section (`vhs-sections`, `featured`).
+   - **Headline**: "Don't Let Your Memories Fade."
+   - **Structure**: Centered deep navy section (`#16324F`) featuring scanline radial background texture (`.vhs-cta-band-overlay`), subtitle, primary blue button ("Get a Free Quote"), and outline phone button ("Call 754-276-1601").
+
+9. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-stories-section`, `.vhs-review-card`, `.vhs-faq-section`, `.vhs-cta-band-section`, `.vhs-cta-btn-primary`, `.vhs-cta-btn-phone`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
 

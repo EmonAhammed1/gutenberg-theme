@@ -1116,3 +1116,93 @@ body .wp-site-blocks > :last-child {
 		font-size: 28px !important;
 	}
 }
+
+/* CTA Band / Don't Let Your Memories Fade Section */
+.vhs-cta-band-section {
+	position: relative !important;
+	background-color: #16324F !important;
+	overflow: hidden !important;
+}
+
+.vhs-cta-band-overlay {
+	position: absolute !important;
+	inset: 0 !important;
+	pointer-events: none !important;
+	background-image: radial-gradient(100% 120% at 50% 0%, rgba(57, 183, 236, 0.09), rgba(57, 183, 236, 0) 60%), repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0px, rgba(255, 255, 255, 0.028) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 3px) !important;
+}
+
+.vhs-cta-band-content {
+	position: relative !important;
+	text-align: center !important;
+	padding: 88px 24px !important;
+}
+
+.vhs-cta-band-title {
+	margin: 0 0 14px 0 !important;
+	font-size: 44px !important;
+	font-weight: 800 !important;
+	color: #FFFFFF !important;
+	letter-spacing: -0.01em !important;
+}
+
+.vhs-cta-band-desc {
+	margin: 0 auto 32px auto !important;
+	font-size: 17px !important;
+	line-height: 1.6 !important;
+	color: rgba(255, 255, 255, 0.78) !important;
+	font-weight: 500 !important;
+	max-width: 520px !important;
+}
+
+.vhs-cta-btn-group {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	gap: 16px !important;
+	flex-wrap: wrap !important;
+}
+
+.vhs-cta-btn-primary {
+	background-color: #436DA5 !important;
+	color: #FFFFFF !important;
+	font-weight: 700 !important;
+	font-size: 16px !important;
+	padding: 16px 32px !important;
+	border-radius: 12px !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	transition: background-color 0.18s ease, transform 0.18s ease !important;
+	border: none !important;
+}
+
+.vhs-cta-btn-primary:hover {
+	background-color: #3A5F91 !important;
+	transform: translateY(-2px) !important;
+}
+
+.vhs-cta-btn-phone {
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 9px !important;
+	border: 1.5px solid rgba(255, 255, 255, 0.25) !important;
+	color: #FFFFFF !important;
+	font-weight: 700 !important;
+	font-size: 16px !important;
+	padding: 16px 26px !important;
+	border-radius: 12px !important;
+	text-decoration: none !important;
+	transition: border-color 0.18s ease, color 0.18s ease, transform 0.18s ease !important;
+	background: transparent !important;
+}
+
+.vhs-cta-btn-phone:hover {
+	border-color: #39B7EC !important;
+	color: #39B7EC !important;
+	transform: translateY(-2px) !important;
+}
+
+@media (max-width: 782px) {
+	.vhs-cta-band-title {
+		font-size: 30px !important;
+	}
+}
