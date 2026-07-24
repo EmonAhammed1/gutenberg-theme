@@ -1,14 +1,13 @@
 <?php
 /**
- * How It Works Pattern
- *
- * @package Realome
+ * Title: 04. How It Works Step-by-Step
+ * Slug: realome/how-it-works
+ * Categories: featured, vhs-sections
+ * Keywords: how it works, steps, process, quote, digitized, review, returned
  */
 
-return array(
-	'title'      => __( '04. How It Works Step-by-Step', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
-	'content'    => '
+$theme_uri = get_template_directory_uri();
+?>
 <!-- wp:group {"align":"full","className":"vhs-how-section","style":{"spacing":{"padding":{"top":"88px","bottom":"88px","left":"24px","right":"24px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-how-section" style="padding-top:88px;padding-right:24px;padding-bottom:88px;padding-left:24px">
 
@@ -100,5 +99,3 @@ return array(
 
 </div>
 <!-- /wp:group -->
-',
-);

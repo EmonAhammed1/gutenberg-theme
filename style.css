@@ -630,3 +630,114 @@ body .wp-site-blocks > :last-child {
 	letter-spacing: 0.06em !important;
 	color: rgba(255, 255, 255, 0.6) !important;
 }
+
+/* How It Works 4-Step Section */
+.vhs-how-section {
+	background-color: #F3F7FC !important;
+}
+
+.vhs-how-header {
+	display: flex !important;
+	align-items: flex-end !important;
+	justify-content: space-between !important;
+	margin-bottom: 52px !important;
+	flex-wrap: wrap !important;
+	gap: 16px !important;
+}
+
+.vhs-how-title {
+	margin: 0 !important;
+	font-size: 40px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	letter-spacing: -0.01em !important;
+}
+
+.vhs-how-subtitle {
+	font-size: 14.5px !important;
+	font-weight: 700 !important;
+	color: #4A5D73 !important;
+	margin: 0 !important;
+}
+
+.vhs-how-grid {
+	display: grid !important;
+	grid-template-columns: repeat(4, 1fr) !important;
+	gap: 24px !important;
+	width: 100% !important;
+}
+
+.vhs-how-card {
+	background-color: #FFFFFF !important;
+	border: 1px solid #E3EBF4 !important;
+	border-radius: 16px !important;
+	padding: 28px !important;
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: flex-start !important;
+	box-shadow: 0 4px 16px rgba(22, 50, 79, 0.03) !important;
+	transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+	box-sizing: border-box !important;
+}
+
+.vhs-how-card:hover {
+	transform: translateY(-4px) !important;
+	box-shadow: 0 14px 30px rgba(22, 50, 79, 0.08) !important;
+}
+
+.vhs-how-card-top {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+	margin-bottom: 18px !important;
+}
+
+.vhs-how-icon-circle {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 52px !important;
+	height: 52px !important;
+	border-radius: 50% !important;
+	border: 1.5px solid #39B7EC !important;
+	background-color: transparent !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-how-number {
+	font-size: 15px !important;
+	font-weight: 800 !important;
+	color: #C3D2E3 !important;
+}
+
+.vhs-how-card-title {
+	font-size: 17px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	margin-top: 0 !important;
+	margin-bottom: 8px !important;
+	line-height: 1.35 !important;
+}
+
+.vhs-how-card-desc {
+	font-size: 14px !important;
+	line-height: 1.6 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	margin: 0 !important;
+}
+
+@media (max-width: 992px) {
+	.vhs-how-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.vhs-how-grid {
+		grid-template-columns: 1fr !important;
+	}
+	.vhs-how-title {
+		font-size: 28px !important;
+	}
+}

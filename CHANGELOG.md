@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0] - 2026-07-24
+
+### Added
+- **How It Works 4-Step Pattern (`inc/patterns/how-it-works.php`, `patterns/05-how-it-works.php`)**:
+  - Updated "How It Works" pattern to match the 4-card pixel perfect layout ("Get your free quote", "Digitized by hand", "Review online", "Everything returned").
+  - Added CSS styling rules for `.vhs-how-section`, `.vhs-how-header`, `.vhs-how-grid`, `.vhs-how-card`, `.vhs-how-icon-circle`, and `.vhs-how-number` in `style.css`.
+
 ## [1.2.1] - 2026-07-24
 
 ### Fixed

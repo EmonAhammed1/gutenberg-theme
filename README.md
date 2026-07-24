@@ -71,6 +71,11 @@ Note: Images are not included in Main Download File.
    - **Headline**: "Turn Your Memories Into a Documentary of Your Life."
    - **Structure**: 2-column dark navy layout (`#16324F`) featuring eyebrow tagline (`ONLY FROM MEMORY CONVERTER`), H2 heading with highlighted word, description paragraph, outline button (`Explore Living Memories`) alongside price tag (`From $1,800`), and right-side striped media container box (`.vhs-spotlight-media-box`).
 
-4. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-spotlight-media-box`, `.vhs-hero-format-pills`, and responsive `@media` query breakpoints (`992px` and `782px`).
+4. **How It Works Step-by-Step Pattern (`inc/patterns/how-it-works.php` & `patterns/05-how-it-works.php`)**
+   - **Component**: 4-Step Process Section (`vhs-sections`, `featured`).
+   - **Headline**: "How It Works." with subtitle "Simple orders can be done in 24 hours; the largest projects take about a week."
+   - **Structure**: 4-column responsive white card grid (`.vhs-how-grid`) with `#F3F7FC` background. Each card features a circular cyan-bordered SVG icon, step number badge (`01`, `02`, `03`, `04`), title, and description.
+
+5. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-hero-format-pills`, and responsive `@media` query breakpoints (`992px` and `600px`).
 
