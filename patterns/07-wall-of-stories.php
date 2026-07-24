@@ -1,14 +1,13 @@
 <?php
 /**
- * Wall of Stories Pattern
- *
- * @package Realome
+ * Title: 08. Wall of Stories Reviews
+ * Slug: realome/wall-of-stories
+ * Categories: featured, vhs-sections
+ * Keywords: reviews, wall of stories, testimonials, google, yelp, super 8, vhs, photos
  */
 
-return array(
-	'title'      => __( '08. Wall of Stories Reviews', 'realome' ),
-	'categories' => array( 'vhs-sections', 'featured' ),
-	'content'    => '
+$theme_uri = get_template_directory_uri();
+?>
 <!-- wp:group {"align":"full","className":"vhs-stories-section","style":{"spacing":{"padding":{"top":"88px","bottom":"88px","left":"24px","right":"24px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <div class="wp-block-group alignfull vhs-stories-section" style="padding-top:88px;padding-right:24px;padding-bottom:88px;padding-left:24px">
 
@@ -95,5 +94,3 @@ return array(
 
 </div>
 <!-- /wp:group -->
-',
-);

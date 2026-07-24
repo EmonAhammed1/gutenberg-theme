@@ -81,6 +81,11 @@ Note: Images are not included in Main Download File.
    - **Headline**: "Serving South Florida — and Families Nationwide by Mail."
    - **Structure**: 2-column layout on `#FFFFFF` background. Left side features headline, subtitle, and 8 city pill tags (`.vhs-city-pill`). Right side features "Not in South Florida?" mail-in card (`.vhs-mailin-card`) with cyan SVG icon and link.
 
-6. **Global Custom Styles (`style.css`)**
-   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-city-pill`, `.vhs-mailin-card`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
+6. **Wall of Stories Reviews Pattern (`inc/patterns/wall-of-stories.php` & `patterns/07-wall-of-stories.php`)**
+   - **Component**: Reviews & Testimonials Section (`vhs-sections`, `featured`).
+   - **Headline**: "A Wall of Stories." with 5.0 Google & Yelp rating badge (`.vhs-rating-badge`).
+   - **Structure**: 3-column equal-height white review cards (`.vhs-review-card`) on `#F3F7FC` background. Each card features 5 cyan stars (`★★★★★`), customer quote paragraph, and author footer with circular avatar, name, and city location.
+
+7. **Global Custom Styles (`style.css`)**
+   - Contains custom CSS rules for `.vhs-format-card`, `.vhs-format-card-dark`, `.vhs-format-card-dashed`, `.vhs-spotlight-section`, `.vhs-how-section`, `.vhs-how-card`, `.vhs-coverage-section`, `.vhs-stories-section`, `.vhs-review-card`, and responsive `@media` query breakpoints (`992px`, `782px`, `600px`).
 

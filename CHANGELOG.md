@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0] - 2026-07-24
+
+### Added
+- **Wall of Stories Reviews Pattern (`inc/patterns/wall-of-stories.php`, `patterns/07-wall-of-stories.php`)**:
+  - Updated "A Wall of Stories" reviews block pattern with 5.0 Google & Yelp rating badge and 3 equal-height testimonial cards (Marisol G. / Coral Gables, David R. / Boca Raton, Rachel S. / Hollywood).
+  - Added CSS rules for `.vhs-stories-section`, `.vhs-rating-badge`, `.vhs-stories-grid`, `.vhs-review-card`, and `.vhs-author-avatar` in `style.css`.
+
 ## [1.4.0] - 2026-07-24
 
 ### Added
