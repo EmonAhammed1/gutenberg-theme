@@ -1,0 +1,538 @@
+/*!
+Theme Name: Realome
+Theme URI: https://www.energeticthemes.com/themes/realome/
+Author: Amjad Ali
+Author URI: https://www.energeticthemes.com/
+Description: A Theme for Real Estate and blog website
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: realome
+Tags: one-column, custom-colors, editor-style, custom-logo, custom-menu, featured-images, theme-options, translation-ready, blog, photography
+*/
+
+/* Custom Icon Upload Helper */
+.vhs-custom-icon-block {
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	margin: 0 !important;
+}
+
+.vhs-custom-icon-block img {
+	width: 24px !important;
+	height: 24px !important;
+	object-fit: contain !important;
+}
+
+/* Eliminate All Spacing Gaps Between Header and Main Content */
+.wp-site-blocks > header,
+.wp-site-blocks > main,
+.wp-site-blocks > footer,
+.wp-site-blocks > * + *,
+.wp-block-post-content > *,
+.wp-block-post-content > * + *,
+.entry-content > *,
+.entry-content > * + *,
+.is-layout-constrained > * + *,
+header + *,
+header.wp-block-group + * {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+body .is-layout-constrained > :first-child,
+body .is-layout-flow > :first-child,
+body .wp-block-post-content > :first-child,
+body .wp-site-blocks > :first-child {
+	margin-top: 0 !important;
+}
+
+body .is-layout-constrained > :last-child,
+body .is-layout-flow > :last-child,
+body .wp-block-post-content > :last-child,
+body .wp-site-blocks > :last-child {
+	margin-bottom: 0 !important;
+}
+
+.entry-content,
+.wp-block-post-content,
+.wp-site-blocks {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	gap: 0 !important;
+}
+
+/* Trust Ribbon Alignment & Generous Spacing */
+.vhs-trust-row-1,
+.vhs-trust-row-2 {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	gap: 36px !important;
+}
+
+.vhs-trust-row-1 {
+	margin-bottom: 16px !important;
+}
+
+.vhs-trust-ribbon .wp-block-group > .wp-block-group {
+	display: flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+}
+
+.vhs-trust-ribbon .wp-block-image {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 16px !important;
+	height: 16px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-trust-ribbon .wp-block-image img {
+	width: 16px !important;
+	height: 16px !important;
+	object-fit: contain !important;
+	display: block !important;
+}
+
+.vhs-trust-ribbon p {
+	margin: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap !important;
+	line-height: 1.2 !important;
+	font-size: 14px !important;
+}
+
+/* Media Box & Badge Styling */
+.vhs-hero-media-box {
+	border-radius: 16px !important;
+}
+
+.vhs-hero-badge {
+	border-radius: 14px !important;
+	margin-top: 20px !important;
+	padding: 14px 20px !important;
+}
+
+/* Formats Grid Section Styling (Strict 1350px Layout & Left Alignment) */
+.vhs-formats-section {
+	background-color: #ffffff !important;
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+}
+
+/* Ensure Inner Container is Constrained to 1350px Max Width */
+.vhs-formats-section .wp-block-group.alignwide,
+.vhs-formats-section > .wp-block-group {
+	max-width: 1350px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 100% !important;
+	box-sizing: border-box !important;
+}
+
+.vhs-formats-header {
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: auto !important;
+	margin-bottom: 44px !important;
+	text-align: left !important;
+}
+
+.vhs-section-title {
+	font-size: 38px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	letter-spacing: -0.01em !important;
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	line-height: 1.15 !important;
+	text-align: left !important;
+	max-width: 100% !important;
+}
+
+.vhs-section-subtitle {
+	font-size: 16.5px !important;
+	line-height: 1.6 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	margin: 0 !important;
+	text-align: left !important;
+	max-width: 640px !important;
+}
+
+/* 3-Column Responsive Grid in 1350px Container */
+.vhs-formats-grid {
+	display: grid !important;
+	grid-template-columns: repeat(3, 1fr) !important;
+	gap: 24px !important;
+	width: 100% !important;
+	max-width: 1350px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.vhs-formats-grid > * {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* Standard White Format Cards - Strictly Left Aligned */
+.vhs-format-card {
+	position: relative !important;
+	background: #FFFFFF !important;
+	border: 1px solid #E3EBF4 !important;
+	border-radius: 16px !important;
+	padding: 28px !important;
+	box-shadow: 0 8px 24px rgba(22, 50, 79, 0.05) !important;
+	transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+	box-sizing: border-box !important;
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: flex-start !important;
+	align-items: flex-start !important;
+	text-align: left !important;
+	height: 100% !important;
+}
+
+.vhs-format-card:hover {
+	transform: translateY(-4px) !important;
+	box-shadow: 0 18px 40px rgba(22, 50, 79, 0.12) !important;
+}
+
+.vhs-card-icon-box {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 46px !important;
+	height: 46px !important;
+	border-radius: 12px !important;
+	background: rgba(57, 183, 236, 0.12) !important;
+	margin-top: 0 !important;
+	margin-left: 0 !important;
+	margin-right: auto !important;
+	margin-bottom: 18px !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-card-title {
+	font-size: 18px !important;
+	font-weight: 800 !important;
+	color: #16324F !important;
+	margin-top: 0 !important;
+	margin-bottom: 8px !important;
+	line-height: 1.3 !important;
+	text-align: left !important;
+	width: 100% !important;
+}
+
+.vhs-card-desc {
+	font-size: 14.5px !important;
+	line-height: 1.55 !important;
+	color: #4A5D73 !important;
+	font-weight: 500 !important;
+	margin-top: 0 !important;
+	margin-bottom: 14px !important;
+	text-align: left !important;
+	width: 100% !important;
+}
+
+.vhs-card-link {
+	margin-top: auto !important;
+	margin-bottom: 0 !important;
+	text-align: left !important;
+	width: 100% !important;
+}
+
+.vhs-card-link a {
+	font-size: 14px !important;
+	font-weight: 800 !important;
+	color: #39B7EC !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+	display: inline-block !important;
+}
+
+.vhs-card-link a:hover {
+	color: #16324F !important;
+}
+
+/* Dark Exclusive Card (Spans 2 Columns on Desktop) */
+.vhs-format-card-dark {
+	grid-column: span 2 !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	background: #16324F !important;
+	border: 1px solid #16324F !important;
+	box-shadow: 0 8px 24px rgba(22, 50, 79, 0.15) !important;
+	text-align: left !important;
+	align-items: flex-start !important;
+}
+
+.vhs-format-card-dark:hover {
+	box-shadow: 0 18px 40px rgba(22, 50, 79, 0.3) !important;
+}
+
+.vhs-format-card-dark .vhs-card-title {
+	color: #FFFFFF !important;
+	text-align: left !important;
+}
+
+.vhs-format-card-dark .vhs-card-desc {
+	color: rgba(255, 255, 255, 0.78) !important;
+	max-width: 100% !important;
+	text-align: left !important;
+}
+
+.vhs-format-card-dark .vhs-card-link a {
+	color: #39B7EC !important;
+}
+
+.vhs-exclusive-badge {
+	position: absolute !important;
+	top: 20px !important;
+	right: 20px !important;
+	background: #39B7EC !important;
+	color: #16324F !important;
+	font-size: 11.5px !important;
+	font-weight: 800 !important;
+	letter-spacing: 0.08em !important;
+	padding: 6px 12px !important;
+	border-radius: 99px !important;
+}
+
+.vhs-card-icon-box-dark {
+	background: rgba(57, 183, 236, 0.18) !important;
+}
+
+/* Dashed Outline Card */
+.vhs-format-card-dashed {
+	grid-column: span 1 !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	text-align: center !important;
+	background: transparent !important;
+	border: 1.5px dashed #C9D6E5 !important;
+	border-radius: 16px !important;
+	padding: 28px !important;
+	box-shadow: none !important;
+	height: 100% !important;
+}
+
+.vhs-format-card-dashed:hover {
+	transform: none !important;
+	box-shadow: none !important;
+	border-color: #39B7EC !important;
+}
+
+.vhs-dashed-link {
+	margin: 0 !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+
+.vhs-dashed-link a {
+	font-size: 15px !important;
+	font-weight: 800 !important;
+	color: #436DA5 !important;
+	text-decoration: none !important;
+	transition: color 0.15s ease !important;
+	display: inline-block !important;
+}
+
+.vhs-dashed-link a:hover {
+	color: #39B7EC !important;
+}
+
+/* Realome Native Block Pillars for Format Pills */
+.vhs-hero-format-pills .wp-block-column {
+	background: rgba(255, 255, 255, 0.06) !important;
+	border: 1px solid rgba(255, 255, 255, 0.14) !important;
+	border-radius: 10px !important;
+	padding: 10px 14px !important;
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: center !important;
+	gap: 10px !important;
+	margin: 0 !important;
+}
+
+.vhs-hero-format-pills .wp-block-image {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 20px !important;
+	height: 20px !important;
+	min-width: 20px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-hero-format-pills .wp-block-image img {
+	width: 20px !important;
+	height: 20px !important;
+	object-fit: contain !important;
+	display: block !important;
+}
+
+.vhs-hero-format-pills p {
+	margin: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap !important;
+	display: inline-block !important;
+	line-height: 1 !important;
+}
+
+/* Header Phone Wrap Alignment */
+.vhs-header-phone-wrap {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: center !important;
+	gap: 6px !important;
+}
+
+.vhs-header-phone-wrap .wp-block-image {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 18px !important;
+	height: 18px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	flex-shrink: 0 !important;
+}
+
+.vhs-header-phone-wrap .wp-block-image img {
+	width: 18px !important;
+	height: 18px !important;
+	object-fit: contain !important;
+	display: block !important;
+}
+
+.vhs-header-phone-wrap p {
+	margin: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap !important;
+	display: inline-block !important;
+	line-height: 1 !important;
+}
+
+/* Hide Unwanted Account & Cart Icons from Header */
+.wc-block-mini-cart,
+.wp-block-woocommerce-mini-cart,
+.header-account-icon,
+.header-cart-icon,
+.wp-block-navigation .wc-block-mini-cart,
+.wp-block-navigation-item--user,
+.wp-block-navigation-item--cart {
+	display: none !important;
+}
+
+/* Navigation Styling Enhancements */
+.wp-block-navigation .wp-block-navigation-item a {
+	font-weight: 600 !important;
+	color: #1e293b !important;
+	font-size: 15px !important;
+	transition: color 0.2s ease !important;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover {
+	color: #39B7EC !important;
+}
+
+.wp-block-navigation .wp-block-navigation-item.current-menu-item a {
+	color: #16324F !important;
+	font-weight: 700 !important;
+	border-bottom: 2px solid #16324F !important;
+}
+
+/* Responsive Formats Grid Adjustments (< 992px & < 782px) */
+@media (max-width: 992px) {
+	.vhs-formats-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.vhs-format-card-dark {
+		grid-column: span 2 !important;
+	}
+}
+
+/* Mobile Responsiveness Adjustments (< 782px) */
+@media (max-width: 782px) {
+	.vhs-formats-grid {
+		grid-template-columns: 1fr !important;
+	}
+
+	.vhs-format-card-dark {
+		grid-column: span 1 !important;
+	}
+
+	.vhs-section-title {
+		font-size: 28px !important;
+	}
+
+	/* Stack buttons full-width on mobile */
+	.wp-block-buttons {
+		flex-direction: column !important;
+		width: 100% !important;
+	}
+
+	.wp-block-buttons > .wp-block-button {
+		width: 100% !important;
+	}
+
+	.wp-block-buttons > .wp-block-button > .wp-block-button__link {
+		width: 100% !important;
+		text-align: center !important;
+		display: block !important;
+		box-sizing: border-box !important;
+	}
+
+	/* Hide format icon pills on mobile screens according to client mockup */
+	.vhs-hero-format-pills {
+		display: none !important;
+	}
+
+	/* Trust Ribbon Mobile Left Alignment (< 782px) */
+	.vhs-trust-ribbon {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	.vhs-trust-row-1,
+	.vhs-trust-row-2 {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		justify-content: flex-start !important;
+		gap: 12px !important;
+		width: 100% !important;
+	}
+
+	.vhs-trust-row-1 {
+		margin-bottom: 12px !important;
+	}
+
+	.vhs-trust-ribbon .wp-block-group > .wp-block-group {
+		width: 100% !important;
+		justify-content: flex-start !important;
+	}
+
+	.vhs-trust-ribbon p {
+		white-space: normal !important;
+		text-align: left !important;
+	}
+}
