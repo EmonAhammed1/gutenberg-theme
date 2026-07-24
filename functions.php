@@ -99,6 +99,7 @@ if ( ! function_exists( 'realome_scripts' ) ) :
 
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'realome-style' );
+		wp_add_inline_style( 'realome-style', 'header a[href*="tel"], header p:has(a[href*="tel"]), header .vhs-header-phone-wrap, header .wp-block-buttons, header .wp-block-button, header .vhs-header-right-actions, header div:has(> .wp-block-buttons), header div:has(a[href*="tel"]), .wp-site-blocks header .wp-block-buttons, .wp-site-blocks header a[href*="tel"], .wp-block-group.alignwide > .wp-block-group:last-child { display: none !important; visibility: hidden !important; opacity: 0 !important; width: 0 !important; height: 0 !important; margin: 0 !important; padding: 0 !important; pointer-events: none !important; }' );
 
 		// Register theme stylesheet.
 		wp_register_style(
