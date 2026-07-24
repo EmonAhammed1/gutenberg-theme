@@ -342,6 +342,21 @@ if ( ! function_exists( 'realome_editor_styles' ) ) :
 		.wp-block-freeform.block-library-rich-text__tinymce a {
 			color: var(--wp--preset--color--foreground);
 		}
+
+		/* Hide header phone link, phone icon and Get a Free Quote button in Mobile Preview */
+		@media (max-width: 992px) {
+			.vhs-header-right-actions,
+			.vhs-header-phone-wrap,
+			header .wp-block-buttons,
+			.wp-block-buttons,
+			a[href*="tel"],
+			p:has(a[href*="tel"]),
+			figure.wp-block-image:has(img[alt*="Phone"]),
+			.wp-block-group:has(> .vhs-header-phone-wrap),
+			.wp-block-group.alignwide > .wp-block-group:last-child {
+				display: none !important;
+			}
+		}
 		';
 
 	}
