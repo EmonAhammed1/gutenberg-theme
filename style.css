@@ -1768,15 +1768,11 @@ body .wp-site-blocks > :last-child {
 	}
 }
 
-/* Hide header phone and Quote button on mobile & tablet (up to 992px) */
-@media (max-width: 992px) {
-	.vhs-header-right-actions,
-	.vhs-header-phone-wrap,
-	.wp-block-group:has(> .vhs-header-phone-wrap),
-	header .wp-block-buttons,
-	.wp-block-group.alignwide > .wp-block-group:last-child {
-		display: none !important;
-	}
+/* Hide header phone and Quote buttons completely */
+.vhs-header-right-actions,
+.vhs-header-phone-wrap,
+.wp-block-group:has(> .vhs-header-phone-wrap) {
+	display: none !important;
 }
 
 

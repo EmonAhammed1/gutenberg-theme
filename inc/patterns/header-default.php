@@ -13,25 +13,11 @@ return array(
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '
-<!-- wp:html -->
-<style>
-@media (max-width: 992px) {
-	.vhs-header-right-actions,
-	.vhs-header-phone-wrap,
-	header .wp-block-buttons,
-	.wp-block-group:has(> .vhs-header-phone-wrap),
-	.wp-block-group.alignwide > .wp-block-group:last-child {
-		display: none !important;
-	}
-}
-</style>
-<!-- /wp:html -->
+<!-- wp:group {"tagName":"header","align":"full","style":{"color":{"background":"#ffffff"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"border":{"bottom":{"color":"#e2e8f0","width":"1px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
+<header class="wp-block-group alignfull has-background" style="background-color:#ffffff;border-bottom-color:#e2e8f0;border-bottom-width:1px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px">
 
-<!-- wp:group {"tagName":"header","align":"full","style":{"color":{"background":"#ffffff"},"spacing":{"padding":{"top":"10px","bottom":"10px","left":"24px","right":"24px"}},"border":{"bottom":{"color":"#e2e8f0","width":"1px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
-<header class="wp-block-group alignfull has-background" style="background-color:#ffffff;border-bottom-color:#e2e8f0;border-bottom-width:1px;padding-top:10px;padding-right:24px;padding-bottom:10px;padding-left:24px">
-
-	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-	<div class="wp-block-group alignwide" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center">
+	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+	<div class="wp-block-group alignwide" style="display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center">
 
 		<!-- Logo (left) -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
@@ -42,32 +28,8 @@ return array(
 		</div>
 		<!-- /wp:group -->
 
-		<!-- Navigation (center) -->
-		<!-- wp:navigation {"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap","orientation":"horizontal"},"style":{"spacing":{"blockGap":"32px"}}} /-->
-
-		<!-- Right actions -->
-		<!-- wp:group {"className":"vhs-header-right-actions","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-		<div class="wp-block-group vhs-header-right-actions" style="display:flex;align-items:center;gap:20px">
-			<!-- wp:group {"className":"vhs-header-phone-wrap","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-			<div class="wp-block-group vhs-header-phone-wrap" style="display:flex;align-items:center;gap:6px">
-				<!-- wp:image {"width":18,"height":18,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( $theme_uri ) . '/assets/icons/phone.svg" alt="Phone" width="18" height="18"/></figure>
-				<!-- /wp:image -->
-				<!-- wp:paragraph {"style":{"color":{"text":"#39B7EC"},"typography":{"fontWeight":"700"}},"fontSize":"small"} -->
-				<p class="has-text-color has-small-font-size" style="color:#39B7EC;font-weight:700;margin:0"><a href="tel:7542761601" style="color:#39B7EC;text-decoration:none">754-276-1601</a></p>
-				<!-- /wp:paragraph -->
-			</div>
-			<!-- /wp:group -->
-
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
-				<!-- wp:button {"style":{"color":{"background":"#436DA5","text":"#ffffff"},"border":{"radius":"10px"}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background wp-element-button" style="border-radius:10px;background-color:#436DA5;color:#ffffff">Get a Free Quote</a></div>
-				<!-- /wp:button -->
-			</div>
-			<!-- /wp:buttons -->
-		</div>
-		<!-- /wp:group -->
+		<!-- Navigation (right) -->
+		<!-- wp:navigation {"layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap","orientation":"horizontal"},"style":{"spacing":{"blockGap":"32px"}}} /-->
 
 	</div>
 	<!-- /wp:group -->
