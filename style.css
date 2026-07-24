@@ -7,7 +7,7 @@ Description: A Theme for Real Estate and blog website
 Requires at least: 5.9
 Tested up to: 6.0
 Requires PHP: 5.6
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: realome
@@ -1768,11 +1768,25 @@ body .wp-site-blocks > :last-child {
 	}
 }
 
-/* Hide header phone and Quote buttons completely */
-.vhs-header-right-actions,
-.vhs-header-phone-wrap,
-.wp-block-group:has(> .vhs-header-phone-wrap) {
+/* FORCE HIDE DATABASE OVERRIDDEN HEADER BUTTONS & PHONE EVERYWHERE */
+header a[href*="tel"],
+header p:has(a[href*="tel"]),
+header .vhs-header-phone-wrap,
+header .wp-block-buttons,
+header .wp-block-button,
+header .vhs-header-right-actions,
+header div:has(> .wp-block-buttons),
+header div:has(a[href*="tel"]),
+.wp-site-blocks header .wp-block-buttons,
+.wp-site-blocks header a[href*="tel"] {
 	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	pointer-events: none !important;
 }
 
 
