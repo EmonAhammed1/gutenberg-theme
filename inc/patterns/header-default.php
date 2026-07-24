@@ -13,6 +13,20 @@ return array(
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '
+<!-- wp:html -->
+<style>
+@media (max-width: 992px) {
+	.vhs-header-right-actions,
+	.vhs-header-phone-wrap,
+	header .wp-block-buttons,
+	.wp-block-group:has(> .vhs-header-phone-wrap),
+	.wp-block-group.alignwide > .wp-block-group:last-child {
+		display: none !important;
+	}
+}
+</style>
+<!-- /wp:html -->
+
 <!-- wp:group {"tagName":"header","align":"full","style":{"color":{"background":"#ffffff"},"spacing":{"padding":{"top":"10px","bottom":"10px","left":"24px","right":"24px"}},"border":{"bottom":{"color":"#e2e8f0","width":"1px"}}},"layout":{"type":"constrained","contentSize":"1350px"}} -->
 <header class="wp-block-group alignfull has-background" style="background-color:#ffffff;border-bottom-color:#e2e8f0;border-bottom-width:1px;padding-top:10px;padding-right:24px;padding-bottom:10px;padding-left:24px">
 
