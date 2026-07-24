@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.2] - 2026-07-24
+
+### Fixed
+- **How It Works Cards Top Alignment (`style.css`)**:
+  - Added `margin-top: 0 !important` and `margin-block-start: 0 !important` to `.vhs-how-grid > *` and `.vhs-how-card` to override Gutenberg's default sibling block top margin, ensuring all 4 cards align pixel-perfectly along the top edge.
+
 ## [1.3.1] - 2026-07-24
 
 ### Fixed

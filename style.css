@@ -669,12 +669,20 @@ body .wp-site-blocks > :last-child {
 }
 
 .vhs-how-grid > * {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
 	height: 100% !important;
 	display: flex !important;
 	flex-direction: column !important;
 }
 
 .vhs-how-card {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
 	background-color: #FFFFFF !important;
 	border: 1px solid #E3EBF4 !important;
 	border-radius: 16px !important;
